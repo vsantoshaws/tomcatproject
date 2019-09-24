@@ -27,9 +27,6 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
-  </distributionManagement>
-         
-  <distributionManagement>
     <repository>
       <id>deployment</id>
       <name>Internal Release</name>
