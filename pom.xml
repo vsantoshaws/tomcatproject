@@ -28,6 +28,19 @@
       <url>file:///tmp/maven-project-site</url>
     </site>
   </distributionManagement>
+         
+  <distributionManagement>
+    <repository>
+      <id>deployment</id>
+      <name>Internal Release</name>
+      <url>http://3.84.74.154:8081/repository/Sample_Release/</url>
+    </repository>
+    <snapshotrepository>
+      <id>deployment</id>
+      <name>Internal Snapshot Release</name>
+      <url>http://3.84.74.154:8081/repository/Sample_Snapshot/</url>
+    </snapshotrepository>       
+  </distributionManagement>       
 
   <build>
     <plugins>
